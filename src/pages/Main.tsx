@@ -1,5 +1,4 @@
 function Main() {
-  return <div>MainPage</div>;
+  return <div>MainPage</div>
 }
-console.log('test');
-export default Main;
+export default Main
