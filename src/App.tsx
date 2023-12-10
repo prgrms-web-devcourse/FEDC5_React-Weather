@@ -1,6 +1,6 @@
-import { Route, Routes } from 'react-router-dom'
+import { Route, Routes } from 'react-router-dom';
 
-import Main from './pages/Main'
+import Main from './pages/Main';
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
         element={<Main />}
       />
     </Routes>
-  )
+  );
 }
 
-export default App
+export default App;
