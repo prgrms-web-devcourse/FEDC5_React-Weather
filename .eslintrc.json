@@ -9,7 +9,6 @@
   },
   "rules": {
     // 들여쓰기 깊이 제한
-    "max-depth": ["error", 3],
-    "no-console": "error"
+    "max-depth": ["error", 3]
   }
 }
