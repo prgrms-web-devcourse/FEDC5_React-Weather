@@ -1,4 +1,13 @@
+import CommonComponent from '../common';
+
+const { Header } = CommonComponent;
+
 function Main() {
-  return <div>MainPage</div>;
+  return (
+    <div>
+      <Header />
+      MainPage
+    </div>
+  );
 }
 export default Main;
