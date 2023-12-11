@@ -1,14 +1,11 @@
-import CommonComponent from '../common';
-import useModal from '../hooks/useModal';
-import Modal from '../components/Modal/Modal';
-const { Header } = CommonComponent;
+import useModal from '../Hooks/useModal';
+import Modal from '../Components/Common/Modal';
 
 function Main() {
   const { visible, modalRef, openModal, closeModal } = useModal();
 
   return (
     <div>
-      <Header />
       MainPage
       <button onClick={openModal}>modal open!</button>
       <Modal
