@@ -24,13 +24,15 @@
     "eslint-plugin-prettier": "^5.0.1",
     "prettier": "^3.1.0",
     "react-router-dom": "^6.20.1",
-    "sass": "^1.69.5"
+    "sass": "^1.69.5",
+    "vercel": "^32.6.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "vercel": "vercel dev"
   },
   "eslintConfig": {
     "extends": [
