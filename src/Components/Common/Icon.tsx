@@ -2,11 +2,13 @@ import { IconProps } from '../../Types/Icon';
 
 function Icon({ className, iconText, size }: IconProps) {
   return (
-    <span
-      className={`material-symbols-outlined ${className}`}
-      style={{ width: size }}>
-      {iconText}
-    </span>
+    <div className={className}>
+      <span
+        className={'material-symbols-outlined'}
+        style={{ width: size }}>
+        {iconText}
+      </span>
+    </div>
   );
 }
 
