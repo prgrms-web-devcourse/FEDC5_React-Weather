@@ -1,0 +1,14 @@
+.main-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-header-top {
+  font-size: 2rem;
+}
+
+.main-header-bottom {
+  margin-top: 0.5rem;
+}

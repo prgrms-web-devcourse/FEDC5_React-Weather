@@ -1,0 +1,14 @@
+.main-header-div {
+  position: relative;
+  display: flex;
+  justify-content: end;
+
+  .main-header-input {
+    border-radius: 20px;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    width: 16rem;
+    height: 2rem;
+    padding: 1rem 1rem 1rem 2.5rem;
+  }
+}
