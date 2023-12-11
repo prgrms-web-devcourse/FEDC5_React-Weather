@@ -10,13 +10,11 @@ export default function Modal({ visible, children, modalRef }: Props) {
   if (!visible) return <></>;
 
   return (
-    <div className="modal">
-      <div className="modal__backgroud">
-        <div
-          className="modal__content"
-          ref={modalRef}>
-          {children}
-        </div>
+    <div className="modal__backgroud">
+      <div
+        className="modal__content"
+        ref={modalRef}>
+        {children}
       </div>
     </div>
   );

@@ -4,7 +4,7 @@ import Modal from '../components/Modal/Modal';
 const { Header } = CommonComponent;
 
 function Main() {
-  const { openModal, visible, closeModal, modalRef } = useModal();
+  const { visible, modalRef, openModal, closeModal } = useModal();
 
   return (
     <div>
