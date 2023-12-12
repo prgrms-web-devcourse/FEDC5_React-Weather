@@ -1,6 +1,7 @@
+import './App.scss';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-import Main from './Pages/Main';
+import Main from './Routes/Main';
 
 function App() {
   return (
