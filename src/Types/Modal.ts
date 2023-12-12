@@ -13,6 +13,6 @@ export interface SearchBarProps {
 }
 
 export interface ListProps {
-  keyword: string;
+  target: string;
   list: string;
 }

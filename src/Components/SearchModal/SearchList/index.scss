@@ -5,11 +5,12 @@
   color: #9ca3af;
   border-bottom: 1px solid #e5e7eb;
   list-style: none;
+  cursor: pointer;
 }
 .list__item:last-child {
   border-bottom: none;
 }
-.list__item > span {
+.list__item > strong {
   font-weight: 500;
   color: black;
 }

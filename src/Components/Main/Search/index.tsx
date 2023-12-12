@@ -7,12 +7,12 @@ function Search() {
   const { visible, modalRef, openModal, closeModal } = useModal();
 
   return (
-    <div className="main-header-outer">
+    <div className="main-header__outer">
       <div
-        className="main-header-inner"
+        className="main-header__inner"
         onClick={openModal}>
         <Icon
-          className="main-header-icon"
+          className="main-header__icon"
           iconText="search"
         />
       </div>
