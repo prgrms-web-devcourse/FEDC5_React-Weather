@@ -1,0 +1,15 @@
+.list__item {
+  padding: 2rem;
+  padding-bottom: 1rem;
+  font-size: 1.1rem;
+  color: #9ca3af;
+  border-bottom: 1px solid #e5e7eb;
+  list-style: none;
+}
+.list__item:last-child {
+  border-bottom: none;
+}
+.list__item > span {
+  font-weight: 500;
+  color: black;
+}

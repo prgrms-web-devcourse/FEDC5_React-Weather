@@ -11,3 +11,8 @@ export interface SearchBarProps {
   value: string;
   onChange: Dispatch<SetStateAction<string>>;
 }
+
+export interface ListProps {
+  keyword: string;
+  list: string;
+}
