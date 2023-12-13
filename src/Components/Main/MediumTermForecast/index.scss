@@ -1,0 +1,89 @@
+.medium-term-forecast {
+  width: 400px;
+  margin-left: 30px;
+  padding: 20px;
+  border-radius: 18px;
+  background-color: rgba(87, 135, 197, 0.5);
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+
+  &__title-wrap {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.4);
+  }
+
+  &__title-text {
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  &__list {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+  }
+}
+
+.medium-term-forecast-item {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.4);
+  box-sizing: border-box;
+
+  &__day {
+    width: 30%;
+  }
+
+  &__icon {
+    width: 20%;
+  }
+
+  &__temperature-wrap {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 50%;
+  }
+
+  &__temperature-bar {
+    position: relative;
+    width: 100%;
+    height: 5px;
+    border-radius: 5px;
+    background-color: #567fb4;
+    // background-image: linear-gradient(to right, #73acf2, #c4ce47, yellow, red);
+
+    &--inner-color {
+      position: absolute;
+      width: 20px;
+      height: 5px;
+      border-radius: 5px;
+      background-image: linear-gradient(to right, #177eff, #73acf2, #c4ce47);
+    }
+
+    &--current {
+      position: absolute;
+      transform: translateX(-100%);
+      top: 0px;
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background-color: white;
+    }
+  }
+
+  &__temperature--lowest {
+    width: 30%;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: right;
+  }
+
+  &__temperature--highest {
+    width: 30%;
+  }
+}
