@@ -1,0 +1,32 @@
+@import '../../../App.scss';
+
+.airquality {
+  @include container-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0.4rem 0.6rem;
+
+  &__inner {
+    display: flex;
+    align-items: center;
+  }
+  &__icon {
+      margin-right: 0.2rem;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+  }
+  &__index {
+    font-size: 2.5rem;
+  }
+  &__level {
+    font-size: 1.24rem;
+  }
+  
+  &__description {
+    margin-top: 0.6rem;
+  }
+}
