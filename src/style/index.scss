@@ -1,0 +1,10 @@
+@import './_reset.scss';
+@import './_responsive.scss';
+
+body,
+html {
+  overflow: hidden;
+  max-width: 1600px;
+  min-height: 100vh;
+  margin: 0 auto;
+}

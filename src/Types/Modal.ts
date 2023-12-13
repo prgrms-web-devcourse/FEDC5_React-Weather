@@ -1,7 +1,18 @@
+import { Dispatch, SetStateAction } from 'react';
+
 export interface ModalProps {
   visible: boolean;
-  title?: string;
   children: React.ReactNode;
   modalRef: React.RefObject<HTMLDivElement>;
   closeModal: () => void;
+}
+
+export interface SearchBarProps {
+  value: string;
+  onChange: Dispatch<SetStateAction<string>>;
+}
+
+export interface ListProps {
+  target: string;
+  list: string;
 }
