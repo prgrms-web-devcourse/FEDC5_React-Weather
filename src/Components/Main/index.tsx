@@ -4,7 +4,7 @@ import Search from './Search';
 import Temperature from './Temperature';
 import VeryShortTermForecast from './VeryShortTermForecast';
 import useGetWeather from '../../hooks/useGetWeather';
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useState } from 'react';
 
 function MainPage() {
   // 추후 들어올 x, y 좌표 값
