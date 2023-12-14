@@ -8,3 +8,8 @@ html {
   min-height: 100vh;
   margin: 0 auto;
 }
+
+@mixin container-box {
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}
