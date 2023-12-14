@@ -5,6 +5,7 @@ import Temperature from './Temperature';
 import VeryShortTermForecast from './VeryShortTermForecast';
 import useGetWeather from '../../hooks/useGetWeather';
 import { useEffect, useState } from 'react';
+import MediumTermForecast from './MediumTermForecast';
 
 function MainPage() {
   // 추후 들어올 x, y 좌표 값
@@ -33,6 +34,7 @@ function MainPage() {
       <section className="main-section">
         <Temperature size={40} />
         <VeryShortTermForecast />
+        <MediumTermForecast />
       </section>
     </>
   );
