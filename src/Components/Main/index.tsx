@@ -26,7 +26,7 @@ function MainPage() {
 
   useEffect(() => {
     console.log(getWeatherData);
-  }, [requestData]);
+  });
   return (
     <>
       <Search />

@@ -1,6 +1,6 @@
 import Icon from '../../Common/Icon';
 import { mediumTermForecastItemProps } from '../../../Types/mediumTermForecast';
-import useGetWidth from '../../../Hooks/useGetWidth';
+import useGetWidth from '../../../hooks/useGetWidth';
 
 function MediumTermForecastItem({
   day,
